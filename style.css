@@ -1,0 +1,99 @@
+  /* @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;1,600&display=swap'); */
+
+/* *{
+    text-align: center;
+    font-family: 'poiret one', cursive;
+} */
+h1{
+    cursor: pointer;
+    text-align: left;
+    border-bottom: 2px solid rgb(255, 0, 0);
+    border-right: 2px solid rgb(255, 0, 0);
+    margin-right: 75%;
+    background-color: white;
+    color: rgb(255, 0, 0, 0.7);
+    padding: 10px;
+    /* font-style: italic; */
+    font-weight: 600;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+h1:hover{
+    color: rgb(255, 0, 0);
+
+}
+.nav{
+    text-align: right;
+    list-style: none;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+a{
+    padding: 5px;
+    transition: all 0.5s ease;
+    background: whitesmoke;
+    color: red;
+    text-decoration: none;
+}
+a:hover{
+    color: white;
+   background: red;
+   padding: 15px;
+   border-radius: 8px;
+}
+h3{
+    text-decoration: none;
+    text-align: center;
+    border: 1px solid red;
+    padding: 10px;
+    margin-left: 20%; 
+    margin-right: 20%; 
+    color: red;
+}
+li{
+    list-style: none;
+    padding: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: larger;
+      transition: all 0.5s ease;
+    background: whitesmoke;
+    margin-left: 250px;
+    margin-right: 300px;
+    text-align: center;
+}
+li:hover{
+    color: rgb(255, 0, 0);
+    padding: 10px;
+    border: 2px dotted Red;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.boxmodel{
+    border: 1px solid black;
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    background-color: whitesmoke;
+    box-shadow: 200px;
+    transition: all 0.5s ease;
+}
+.boxmodel:hover{
+    margin: 10px;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.479);
+    color: white;
+}
+
+#footer{
+    background-color: rgb(54, 52, 52);
+    padding-top: 50px;
+    text-align: center;
+    color: white;
+    border: 1px solid black;
+    margin: 0px ;
+}

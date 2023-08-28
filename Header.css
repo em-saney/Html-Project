@@ -1,0 +1,64 @@
+*{
+   margin: auto;
+}
+#btn{
+   border-radius: 100px; 
+   width: 70px; height: 30px; 
+   margin-bottom: 10px; 
+   background-color: rgba(0, 0, 0, 0);
+    color: whitesmoke; 
+    border: 1px solid whitesmoke;
+}
+.mongo{
+   
+   padding: 10px;
+   height: 30px;
+   background-color: darkgreen;
+   color: whitesmoke;
+   text-align: center;
+   font-size: 18px;
+}
+h2{
+   margin-left: 35px;
+   margin-top: 20px;
+}
+ .nav{
+   display: flex;
+   text-decoration: none;
+    }
+ li{
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px;
+ }
+ li, a{
+   text-decoration: none;
+   color: rgb(63, 61, 61);
+font-size: 20px;
+ transition: all 0.5s ease;
+ }
+ li, a:hover{
+   color: rgb(9, 255, 9);   
+}
+
+.in{
+   margin-left: 20%;
+   display: flex;
+   padding: 10px;
+   align-items: center;
+  
+}
+#button{
+font-weight: bold;
+width:100px;
+height: 40px;
+background-color: rgb(5, 201, 5);
+margin-top: 10px;
+margin-left: 20px;
+margin-right: 20px;
+transition: all 0.8s ease;
+}
+
+#button:hover{
+   border-radius:100px;
+}
